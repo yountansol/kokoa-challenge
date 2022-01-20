@@ -1,0 +1,14 @@
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form label input:focus {
+  border: 2px solid rgb(61, 110, 201);
+  outline: none;
+  border-radius: 4px;
+}
+
+form input[type="submit"] {
+  width: 120px;
+}
