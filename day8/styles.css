@@ -1,0 +1,66 @@
+body {
+  background-color: #f5f5f5;
+}
+
+.page-title {
+  height: 150px;
+
+  text-align: center;
+}
+
+.page-title {
+  padding-top: 30px;
+}
+.page-title span {
+  font-size: 40px;
+  font-weight: 600;
+}
+.colors-one {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.color-one {
+  width: 230px;
+  height: 390px;
+  background-color: white;
+  margin-right: 20px;
+  margin-bottom: 30px;
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.tomato div:nth-child(1) {
+  width: 218px;
+  height: 379px;
+  background-color: tomato;
+}
+
+.teal div:nth-child(1) {
+  width: 218px;
+  height: 379px;
+  background-color: teal;
+}
+
+.burlywood div:nth-child(1) {
+  width: 218px;
+  height: 379px;
+  background-color: burlywood;
+}
+.thistle div:nth-child(1) {
+  width: 218px;
+  height: 379px;
+  background-color: thistle;
+}
+
+.color-one__desc {
+  width: 218px;
+  height: 128px;
+  position: absolute;
+  margin-top: 26px;
+  background: white;
+}
