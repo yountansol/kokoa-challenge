@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="playlist">
+
+        <main>
+            <div class="head-menu">
+                <i class="fas fa-arrow-left fa-lg"></i>
+                <i class="fas fa-search fa-lg"></i>
+            </div>
+
+            <div class="playlist-img">
+                <img src="img/tyler.jpg">
+            </div>
+
+
+            <div class="title">
+                <h2>Tyler, The Creator</h2>
+                <h4>Rap, Hip-Hop</h4>
+            </div>
+            <div class="playlist-buttons">
+                <button class="playlist-button__shuffle">
+                    Shuffle
+                </button>
+                <button class="playlist-button__like">
+                    <i class="fas fa-heart fa-xl"></i>
+                    <span>212971</span>
+                </button>
+            </div>
+
+
+            <div class="playlist-list">
+                <div class="playlist-list__thumbnail">
+                    <img src="img/earfquake.jpg">
+                </div>
+                <div class="playlist-list__content">
+                    <p class="playlist-list__singer">Tyler, the Creator</p>
+                    <p class="playlist-list__title">earfquake</p>
+                </div>
+                <div class="playlist-list__option">
+                    <i class="fas fa-ellipsis-v fa-xl"></i>
+                </div>
+            </div>
+
+            <div class="playlist-list playlist-list__playing">
+                <div class="playlist-list__thumbnail playlist-list__playing-now">
+                    <img src="img/november.jpg">
+                    <i class="fas fa-headphones fa-2x"></i>
+                </div>
+                <div class="playlist-list__content">
+                    <p class="playlist-list__singer">Tyler, the Creator</p>
+                    <p class="playlist-list__title">november</p>
+                </div>
+                <div class="playlist-list__option">
+                    <i class="fas fa-ellipsis-v fa-xl"></i>
+                </div>
+            </div>
+
+            <div class="playlist-list">
+                <div class="playlist-list__thumbnail">
+                    <img src="img/november.jpg">
+                </div>
+                <div class="playlist-list__content">
+                    <p class="playlist-list__singer">Tyler, the Creator</p>
+                    <p class="playlist-list__title">911</p>
+                </div>
+                <div class="playlist-list__option">
+                    <i class="fas fa-ellipsis-v fa-xl"></i>
+                </div>
+            </div>
+
+            <div class="playlist-list">
+                <div class="playlist-list__thumbnail">
+                    <img src="img/wolf.jpg">
+                </div>
+                <div class="playlist-list__content">
+                    <p class="playlist-list__singer">Tyler, the Creator</p>
+                    <p class="playlist-list__title">wolf</p>
+                </div>
+                <div class="playlist-list__option">
+                    <i class="fas fa-ellipsis-v fa-xl"></i>
+                </div>
+            </div>
+
+            <div class="playlist-current">
+                <div class="playlist-current__info">
+                    <p class="playlist-current-singer">Tyler, The Creator</p>
+                    <p class="playlist-current-title">november</p>
+                </div>
+                <div class="playlist-current__buttons">
+                    <span><i class="fas fa-step-backward"></i></span>
+                    <span><i class="fas fa-pause"></i></span>
+                    <span><i class="fas fa-step-forward"></i></span>
+                </div>
+            </div>
+        
+        </main>
+
+
+    </div>
+
+    <div class="playnow">
+
+        <main>
+            <div class="head-menu">
+                <i class="fas fa-arrow-left fa-lg"></i>
+                <i class="fas fa-ellipsis-v fa-lg"></i>
+            </div>
+            <div class="playnow-img">
+                <img src="img/november.jpg">
+            </div>
+            <div class="title">
+                <h2>November</h2>
+                <h4>Tyler, The Creator</h4>
+            </div>
+            <div class="playnow-range">
+                <div class="playnow-time">
+                    <p>1:56</p>
+                    <p>2:21</p>
+                </div>
+                <input type="range" id="playnow-range__track">
+            </div>
+
+            <div class="playnow-buttons">
+                <span><i class="fas fa-retweet"></i></span>
+                <span><i class="fas fa-step-backward"></i></span>
+                <span><i class="fas fa-play-circle fa-4x"></i></span>
+                <span><i class="fas fa-step-forward"></i></span>
+                <span><i class="fas fa-random"></i></span>
+            </div>
+        
+        </main>
+    
+    </div>
+
+    <script src="https://kit.fontawesome.com/6478f529f2.js"
+    crossorigin="anonymous"
+    ></script>
+</body>
+</html>
