@@ -1,104 +1,18 @@
-/* input[type="range"] {
-  height: 15px;
-  -webkit-appearance: none;
-  margin: 10px 0;
-  width: 100%;
-  overflow: hidden;
-}
-input[type="range"]:focus {
-  outline: none;
-}
-input[type="range"]::-webkit-slider-runnable-track {
-  width: 100%;
-  height: 8px;
-  cursor: pointer;
-  background: #d1d1d1;
-  border-radius: 15px;
-  border: 1px solid #d1d1d1;
-}
-input[type="range"]::-webkit-slider-thumb {
-  border: 1px solid #000000;
-  height: 10px;
-  width: 10px;
-  border-radius: 23px;
-  background: #000000;
-  cursor: pointer;
-  -webkit-appearance: none;
-  margin-top: -2px;
-  box-shadow: -100% 0 0 80px #43e5f7;
-}
-input[type="range"]:focus::-webkit-slider-runnable-track {
-  background: #d1d1d1;
-} */
-
-input[type="range"] {
-  overflow: hidden;
-  width: 200px;
-  -webkit-appearance: none;
-  background-color: #d1d1d1;
-  border-radius: 20px;
-  margin-top: 0px;
-}
-
-input[type="range"]::-webkit-slider-runnable-track {
-  height: 10px;
-  -webkit-appearance: none;
-  color: #d1d1d1;
-  margin-top: -1px;
-  border: 1px solid #d1d1d1;
-}
-
-input[type="range"]::-webkit-slider-thumb {
-  width: 10px;
-  height: 10px;
-  -webkit-appearance: none;
-  cursor: pointer;
-  box-shadow: -200px 0 0 200px #000000;
-  border: 1px solid #000000;
-  border-radius: 50px;
-  background-color: red;
-}
-
-.playnow-time {
-  color: gray;
-  font-size: 13px;
+.featured-book__actions {
   display: flex;
-  justify-content: space-between;
-  margin-bottom: 0px;
-  padding-bottom: 0px;
+  align-items: center;
 }
 
-.t {
-  width: 200px;
-  height: 200px;
-  position: relative;
-}
-.a {
-  background-color: #d1d1d1;
-  width: 250px;
-  height: 10px;
-  border-radius: 50px;
+.featured-book__bookmark {
+  width: 30px;
+  height: 30px;
+  border-radius: 100px;
+  background-color: yellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.b {
-  position: absolute;
-  width: 150px;
-  height: 10px;
-  margin-left: 150px;
-  margin-top: -7px;
-}
-.b div {
-  /* margin-left: -70px; */
-
-  height: 10px;
-  border-radius: 1px solid #d1d1d1;
-  background-color: #000000;
-  position: absolute;
-  margin-top: -7px;
-  margin-left: 10px;
-}
-.b i {
-  color: black;
-  margin: 0px 0px;
-  padding: 0px 0px;
+.featured-book__bookmark i {
+  /* font-size: 30px; */
 }

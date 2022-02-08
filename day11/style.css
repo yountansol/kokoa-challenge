@@ -81,7 +81,7 @@ main > div {
 .book-today__read {
   display: flex;
 }
-.book-today__read span {
+/* .book-today__read span {
   display: inline-block;
   width: 70px;
   height: 70px;
@@ -89,6 +89,16 @@ main > div {
   border-radius: 100%;
   text-align: center;
   line-height: 80px;
+} */
+
+.book-today__read span {
+  width: 70px;
+  height: 70px;
+  background-color: #ffce33;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .book-today__read button {
   width: 250px;
