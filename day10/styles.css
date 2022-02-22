@@ -1,0 +1,144 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  border: 12px solid #00c6ad;
+}
+.playlist {
+  padding-left: 60px;
+  padding-top: 110px;
+}
+
+.playlist-exit {
+  display: flex;
+  align-items: center;
+  margin-bottom: 120px;
+}
+.playlist-exit i {
+  margin-right: 220px;
+}
+.playlist-exit p {
+  font-size: 60px;
+  font-weight: 600;
+}
+
+.playlist-now {
+  display: flex;
+}
+
+.playlist-now__thumbnail {
+  width: 325px;
+  height: 320px;
+  border: 5px solid rgba(0, 0, 0, 0.9);
+  background-color: #ffbd11;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15%;
+  margin-bottom: 120px;
+}
+.playlist-now__thumbnail i {
+  font-size: 107px;
+  color: white;
+  border-radius: 20%;
+}
+.playlist-now__content {
+  margin-left: 45px;
+}
+.playlist-now__title {
+  font-size: 100px;
+  font-weight: bold;
+  margin: 0px 0px;
+  line-height: 120px;
+}
+.playlist-now__singer {
+  font-size: 40px;
+  margin-top: 20px;
+}
+
+.playlist-buttons {
+  display: flex;
+  margin-bottom: 120px;
+}
+.playlist-button__play {
+  width: 425px;
+  height: 150px;
+  border: 3px solid rgba(0, 0, 0, 0.9);
+  font-size: 50px;
+  font-weight: 800;
+  text-align: center;
+  line-height: 150px;
+  border-radius: 40px;
+  border-bottom-width: 15px;
+}
+.playlist-button__like {
+  width: 150px;
+  height: 150px;
+  border: 3px solid rgba(0, 0, 0, 0.9);
+  border-radius: 100%;
+  border-bottom-width: 15px;
+  font-size: 80px;
+  font-weight: 600;
+  text-align: center;
+  line-height: 150px;
+  margin-left: 55px;
+}
+
+.playlist-button__add {
+  width: 150px;
+  height: 150px;
+  border: 3px solid rgba(0, 0, 0, 0.9);
+  border-radius: 100%;
+  border-bottom-width: 15px;
+  font-size: 80px;
+  font-weight: 600;
+  text-align: center;
+  line-height: 150px;
+  margin-left: 55px;
+}
+
+.playlist-list {
+  display: flex;
+  align-items: center;
+  margin-bottom: 120px;
+  /* margin-left: 60px; */
+}
+
+.playlist-list__color {
+  width: 130px;
+  height: 130px;
+  outline: none;
+  border: 3px solid rgba(0, 0, 0, 0.9);
+  border-radius: 30%;
+  border-color: black;
+}
+.matargasti {
+  background-color: #f85a2a;
+}
+.attitude {
+  background-color: #ff89bb;
+}
+.try {
+  background-color: #1947e5;
+}
+.sunflower {
+  background-color: #00c6ad;
+}
+
+.playlist-list__title,
+.playlist-list__singer {
+  margin: 0px 10px;
+}
+.playlist-list__content {
+  margin-left: 30px;
+}
+.playlist-list__title {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.playlist-list__singer {
+  font-size: 28px;
+  color: rgba(0, 0, 0, 0.6);
+}

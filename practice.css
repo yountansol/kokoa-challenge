@@ -1,0 +1,18 @@
+.featured-book__actions {
+  display: flex;
+  align-items: center;
+}
+
+.featured-book__bookmark {
+  width: 30px;
+  height: 30px;
+  border-radius: 100px;
+  background-color: yellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.featured-book__bookmark i {
+  /* font-size: 30px; */
+}
